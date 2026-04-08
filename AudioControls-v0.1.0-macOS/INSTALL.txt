@@ -1,0 +1,14 @@
+AudioControls for After Effects
+
+Install on macOS:
+
+1. Copy 'AudioControls' to:
+   ~/Library/Application Support/Adobe/CEP/extensions/
+
+2. Copy 'AudioControls.plugin' to:
+   ~/Library/Application Support/Adobe/Common/Plug-ins/7.0/MediaCore/
+
+3. Restart After Effects.
+
+4. Open:
+   Window > Extensions > AudioControls
