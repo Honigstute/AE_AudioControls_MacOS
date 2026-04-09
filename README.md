@@ -1,10 +1,8 @@
-NO READY TO SHIP YET
+I wish the install would be more easy, but i needed a native plugin with more 
+access to Aftereffects features, so it what it is.
 
-xattr -dr com.apple.quarantine ~/Library/Application\ Support/Adobe/CEP/extensions/AudioControls
-xattr -dr com.apple.quarantine ~/Library/Application\ Support/Adobe/Common/Plug-ins/7.0/MediaCore/AudioControls.plugin
+I don't have a Apple Developer Account yet so your mac will treat this
+plugin as a potential hazard and autoquarantines it, because is is not 
+offically signed, be a trusted developer, me :D.
 
-
-rm -rf ~/Library/Caches/CSXS/cep_cache/AEFT_26.3_com.steveschreiner.audiocontrols.panel
-rm -rf ~/Library/Caches/CSXS/cep_cache/AEFT_26.3_com.steveschreiner.timelinecontrols.panel
-
-open ~/Library/Caches/CSXS/cep_cache
+xattr -dr com.apple.quarantine . 
